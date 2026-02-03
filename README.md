@@ -1,40 +1,25 @@
 # Email-Spam-Detection
 
 ##  Project Overview
-This project detects whether an email is **Spam** or **Not Spam (Ham)** using
-Natural Language Processing (NLP) and Machine Learning techniques.
 
-The model is trained on a labeled email dataset and achieves high accuracy
-using TF-IDF vectorization and Logistic Regression.
+This project classifies emails as Spam or Ham (non-spam) using machine learning algorithms. The dataset used for this project is a publicly available spam email dataset from Kaggle. The project involves various steps, including data preprocessing, feature extraction, model training, and evaluation. The aim is to build a robust classifier that can detect spam emails efficiently.
 
 
+#Objective
 
-##  Technologies Used
-  Python
-  Pandas, NumPy
-  Scikit-learn
-  NLP (TF-IDF)
-  Logistic Regression
+To build a machine learning model that can classify emails into Spam or Ham.
+Handle imbalanced data using SMOTE.
+Evaluate multiple machine learning models for optimal performance
 
+#Key Features
 
-
-##  Dataset
-Publicly available Email Spam Text Classification Dataset  
-Labels:
- 0 → Ham (Not Spam)
- 1 → Spam
-
-
-
-##  Machine Learning Workflow
-1. Data Cleaning
-2. Label Encoding
-3. Train-Test Split
-4. Text Vectorization (TF-IDF)
-5. Model Training
-6. Evaluation
-
-
-## Model Performance
- Accuracy: ~97%
- High precision & recall for spam detection
+Data Preprocessing: Cleaned the dataset, handled missing values, and removed duplicates.
+Class Imbalance Handling: Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the class distribution between spam and ham emails.
+Text Data Processing: Used TF-IDF (Term Frequency-Inverse Document Frequency) to vectorize text data for classification.
+Machine Learning Models: Trained various models:
+Logistic Regression
+Naive Bayes
+Random Forest
+Support Vector Machine (SVM)
+Model Evaluation: Evaluated the models using performance metrics such as F1-score, AUC-ROC, and Confusion Matrix.
+Best Performing Model: Achieved the highest performance with Random Forest and SVM.
