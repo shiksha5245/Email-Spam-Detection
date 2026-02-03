@@ -15,7 +15,6 @@ Evaluate multiple machine learning models for optimal performance
 
 Data Preprocessing: Cleaned the dataset, handled missing values, and removed duplicates.
 Class Imbalance Handling: Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the class distribution between spam and ham emails.
-Text Data Processing: Used TF-IDF (Term Frequency-Inverse Document Frequency) to vectorize text data for classification.
 Machine Learning Models: Trained various models:
 Logistic Regression
 Naive Bayes
